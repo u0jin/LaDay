@@ -23,5 +23,6 @@
         <activity android:name=".SHTActivity" />
         <activity android:name=".PrevActivity" />
     </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

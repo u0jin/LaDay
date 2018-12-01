@@ -8,5 +8,6 @@ class SHTActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sht)
+        supportActionBar?.hide()
     }
 }
